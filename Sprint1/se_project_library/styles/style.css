@@ -58,13 +58,16 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #d35722;
+}
+
 .header__address {
   margin: 0;
   color: #838383;
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -76,7 +79,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   margin: 8px 0 0;
   display: flex;
   column-gap: 20px;
@@ -89,6 +91,10 @@
   color: #000000;
   text-decoration: none;
   font-weight: 500;
+}
+
+.nav__link:hover{
+  color: #d35722;
 }
 
 .events {
@@ -161,6 +167,10 @@
   text-decoration: none;
 }
 
+.events__more:hover {
+  color: #d35722;
+}
+
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -182,31 +192,26 @@
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 79px;
   left: 159px;
 }
@@ -256,7 +261,6 @@
   color: #fff;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   max-width: 760px;
   display: flex;
@@ -323,14 +327,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
 .step {
-  /* Add styles */
   width: 220px;
 }
 
@@ -377,7 +379,6 @@
 
 .about__image {
   width: 703px;
-  /* add styles */
   position: absolute;
   top: -82.5px;
   left: -271px;
